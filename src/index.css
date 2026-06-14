@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Open Sans", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Open Sans", sans-serif;
+  --font-primary: "Open Sans", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-blue: #0A3D62;
+  --color-brand-light-blue: #0091ff;
+  --color-brand-gold: #c19d75;
+  --color-brand-green: bg-[#0091ff];
+  --color-brand-dark: #003366;
+  --color-brand-black: #111111;
+  --color-brand-grey: #f8fafc;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f8fafc;
+  color: #1a1a1a;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+
